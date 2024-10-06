@@ -31,3 +31,9 @@
     color: brown;
     text-decoration: line-through;
 }
+
+.datetime {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

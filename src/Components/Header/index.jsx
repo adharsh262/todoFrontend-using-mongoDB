@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+
 import { Link, useNavigate } from 'react-router-dom';
 import './index.css'
 import Cookies from 'js-cookie'
@@ -37,7 +37,7 @@ const Header = () => {
               </div>
             </li>
             <li>
-              <button type='button' className='btn btn-outline-light m-1' onClick={onClickLogoutBtn}>LOGOUT</button>
+              <button type='button' className='btn btn-outline-light m-1' onClick={onClickLogoutBtn} title='logout'>LOGOUT</button>
             </li>
             </div>)}
             

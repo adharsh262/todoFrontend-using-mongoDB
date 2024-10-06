@@ -63,10 +63,10 @@ const Login = () => {
                 <input type='email' className='form-control my-2 border-danger' name='userName' value={credientials.userName} onChange={onChangeValues} placeholder='abc@gmail.com'/>
                 <input type='password' className='form-control my-4 border-danger' name='password' value={credientials.password} onChange={onChangeValues} placeholder='min of 5 Characters'/>
                 <div>
-                    <button type='submit' className='btn btn-outline-danger'>Login</button>
+                    <button type='submit' className='btn btn-outline-danger' title='Login'>Login</button>
                     <strong className='mx-3'>OR</strong>
                     <Link to="/signup">
-                    <button className='btn btn-outline-danger' type='button'>Sign up</button>
+                    <button className='btn btn-outline-danger' type='button' title='Signup'>Sign up</button>
                     </Link>
                 </div>
             </form>

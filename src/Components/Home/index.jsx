@@ -118,7 +118,7 @@ const Home = () => {
       <>
         <form className='fromEl' onSubmit={onSubmitForm}>
           <input type="text" placeholder='Type Here...' className='inputEl' value={inputEl} onChange={(e) => setInputEl(e.target.value)} />
-          <button className="addBtn" type='submit'>Add</button>
+          <button className="addBtn" type='submit' title='Add'>Add</button>
 
 
         </form>
