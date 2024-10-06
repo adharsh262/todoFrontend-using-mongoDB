@@ -1,0 +1,23 @@
+.headerUnorderedList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+.buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbarImg {
+    font-size: 30px;
+    font-weight: 900;
+}
+.btnAlign {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,33 @@
+
+.itemsContainer {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    flex-direction: row;
+}
+.labelContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.deleteBtn {
+    margin-right: 0;
+    background-color: transparent;
+    border: 0;
+
+}
+.deleteIcon {
+    font-size: 15px;
+    color: brown;
+}
+.checkBoxInput {
+    width: 30px;
+    
+}
+.addRed {
+    color: brown;
+    text-decoration: line-through;
+}
